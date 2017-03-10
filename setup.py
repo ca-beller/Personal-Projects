@@ -19,11 +19,11 @@ def setup():
 	return introduction, guests 
 
 def setupTests():
-	
+
 
 	#for i in guests:
 		#print("{}'s phone number is {}".format(i,guests[i]))
 
-	return introduction, guests
+	
  if __name__ == '__main__':
  	setupTests()
