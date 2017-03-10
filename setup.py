@@ -19,7 +19,7 @@ def setup():
 	return introduction, guests 
 
 def setupTests():
-	# added this comment
+	
 
 	#for i in guests:
 		#print("{}'s phone number is {}".format(i,guests[i]))
