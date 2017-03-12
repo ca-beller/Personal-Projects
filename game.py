@@ -4,11 +4,12 @@ import setup
 from time import sleep
 
 
+def main():
+	intro, guests = setup.setup()
 
-intro, guests = setup.setup()
+	print (intro, guests)
 
-print (intro, guests)
+	#sleep(60)
 
-sleep(60)
-
-print('Is everything ok?')
+	#print('Is everything ok?')
+main()

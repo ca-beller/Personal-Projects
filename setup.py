@@ -10,6 +10,7 @@ def setup():
 		'ben' : '15666666',
 		'steve' : '145236453',
 		'reagan' : '8868686868',
+
 	}
 
 	introduction = "Goodevening guests!\
@@ -19,11 +20,11 @@ def setup():
 	return introduction, guests 
 
 def setupTests():
+	intro, guests = setup()
+
+	for i in guests:
+		print("{}'s phone number is {}".format(i,guests[i]))
 
 
-	#for i in guests:
-		#print("{}'s phone number is {}".format(i,guests[i]))
-
-	
- if __name__ == '__main__':
- 	setupTests()
+if __name__ == "__main__":
+	setupTests()
